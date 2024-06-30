@@ -1,0 +1,19 @@
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+input:focus {
+  outline: transparent;
+  border-color: #5e60ce;
+}
+
+input[type="text"],
+button[type="submit"] {
+  transform: translateY(-50%);
+  transition: all 0.2s;
+  line-height: 0;
+}

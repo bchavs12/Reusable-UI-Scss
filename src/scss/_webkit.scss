@@ -1,0 +1,22 @@
+/* task overflow scrollbar costumization */
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4ea8de;
+  /* border-radius: 5px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e6f9f;
+}

@@ -1,0 +1,29 @@
+@import "variables";
+@import "inputs";
+@import "webkit";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background-color: $gray-600;
+  color: $blue;
+}
+
+#container {
+  min-height: 100vh;
+  #app-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: $max-width;
+    width: 100%;
+    margin: auto;
+  }
+}
