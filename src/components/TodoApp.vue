@@ -7,7 +7,7 @@ import TodoEmpty from "./TodoEmpty.vue"
 
 <template>
   <TodoForm />
-  <section>
+  <section class="mt-16">
     <TodoInfo />
     <div>
       <TodoItem />
@@ -15,9 +15,3 @@ import TodoEmpty from "./TodoEmpty.vue"
     </div>
   </section>
 </template>
-
-<style scoped lang="scss">
-section {
-  margin-top: 4rem;
-}
-</style>

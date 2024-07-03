@@ -1,0 +1,23 @@
+// Interface of classes styles already made like a framework
+@import "./variables";
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.counter-tasks {
+  color: $text-gray-200;
+  font-weight: $font-bold;
+  background-color: $bg-base-gray-400;
+
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+
+  padding: 0 0.75rem;
+}
+
+// @mixin counter-task-UI() {
+// }

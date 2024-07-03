@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@phosphor-icons/vue": "^2.2.1",
+    "uuid": "^10.0.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@types/uuid": "^10.0.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.77.6",
     "typescript": "^5.2.2",
